@@ -257,7 +257,7 @@ int main(int argc, char const *argv[]) {
   printf("\nThe size of list is %d, the 1st element has value %d, the whole list is:\n", sizeOfLinkedList(LL), getValueOfNthElement(LL, 1));
   printList(LL);
 
-  printf("\n\n12 is at position %d, but 3 is at position %d:\n", findFirstIndexOfAValue(LL, 144), findFirstIndexOfAValue(LL, 3));
+  printf("\n\n144 is at position %d, but 3 is at position %d:\n", findFirstIndexOfAValue(LL, 144), findFirstIndexOfAValue(LL, 3));
 
   freeList(LL);
   return 0;
